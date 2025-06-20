@@ -1,0 +1,130 @@
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(39, 37, 37);
+}
+
+.container{
+            
+            justify-content:right;
+            display:flex;
+            padding: 0.2rem;
+            background-color: #e9e0e0;
+            box-shadow: 1rem 2rem 10rem rgba(41, 43, 173, 0.548);
+}
+
+ul{
+    display:inline-flex;
+}
+
+ul li .nav-menu-bar, .nav-menu-bar{
+    margin: 1rem;
+    padding: 0.8rem 2rem;
+    display:flex;
+    font-size: 1.2rem;
+    background-color: rgb(207, 199, 199);
+    border-radius: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+
+.nav-menu-bar-before::before{
+    content: "Movieflix";
+    height: 3rem;
+    width: 10rem;
+    box-shadow: 5px 5px 4px;
+    color: rgb(33, 28, 105);
+    margin-right: 26rem;
+    padding-top: 1rem;
+    display: flex;
+    font-size: 2.1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold';
+    text-shadow: 5px 4px 4px #614881;
+    letter-spacing: 0.2rem;
+    border-radius: 8rem 15rem;
+}
+
+ul li .nav-menu-bar:hover{
+        background-color: rgb(30, 30, 109);
+        color: white;
+}
+
+form{
+    display: flex;
+    /* justify-content: center; */
+    padding: 2rem;
+}
+
+button{
+    background-color: white;
+    width: 8rem;
+    margin-right: -1rem;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    cursor: pointer ;
+    background-color: rgb(207, 199, 199);
+    border-radius: 1rem;
+}
+.search-bar{
+    height: 3rem;
+    width: 30rem;
+    border: 1px solid white;
+    font-size: 1.5rem;
+    border-left: none;
+    padding: 0.4rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.links-btn-div{
+    display: flex;
+    float: right;
+}
+
+.links-btn{
+    margin-top: -5.2rem;
+    margin-right: 4rem;
+    color: blue;
+    font-size: 2rem;
+    padding: 0.5rem;
+    transition: 0.5s ease;
+}
+
+.links-btn:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;   
+}
+
+
+/* @keyframes slide{
+
+    25%{
+        background-color: rgb(0, 253, 76);
+        height: 50px;
+        width: 50px;
+    }
+
+    50%{
+                background-color: rgb(255, 255, 255);
+
+    }
+
+    75%{
+               background-color: red;
+
+    }
+
+     100%{
+                background-color: rgb(217, 255, 0);
+                height: 150px;
+                width: 150px;
+
+    }
+} */

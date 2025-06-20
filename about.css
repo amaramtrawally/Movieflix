@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+h1{
+margin-top: -1.8rem;
+
+}
+
+.first-paragraph{
+    font-size: 2rem;
+}
+
+.home-page-button{
+    margin: 1rem;
+    font-size: 1.5rem;
+    background-color:#020927;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 30rem -6rem 80rem 25rem rgba(0, 0, 255, 0.158);
+    cursor: pointer;
+    padding: 1rem 5rem;
+}
+.home-page-button:hover{
+    background-color: rgb(219, 209, 209);
+    color: rgb(0, 0, 0);
+}
+
+hr{
+    height: 0.2rem;
+    padding: 0;
+    background-color: white;
+    
+}
